@@ -26,7 +26,7 @@ if (isset($_GET['id'])) {
   echo "Blog tidak ditemukan";
 }
 
-$check_pemilik = $_SESSION['user_id'] == $user_id;
+$check_pemilik = @$_SESSION['user_id'] == $user_id;
 ?>
 
 <!DOCTYPE html>

@@ -21,6 +21,7 @@ if (isset($_GET['id'])) {
 
   echo "Blog tidak ditemukan";
 }
+
 ?>
 
 <!DOCTYPE html>
